@@ -22,9 +22,6 @@ public class I05_2_CombineTwoArrays {
     int index1 = input1Length - 1;
     int index2 = input2Length - 1;
     int newIndex1 = input1Length + input2Length - 1;
-    System.out.println(input1Length);
-    System.out.println(input2Length);
-    System.out.println(newIndex1);
     while (index1 >= 0 && index2 >= 0) {
       if (input1[index1] >= input2[index2]) {
         input1[newIndex1--] = input1[index1--];
